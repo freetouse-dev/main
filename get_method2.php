@@ -11,9 +11,6 @@
         $product = $_GET["product"];
         $category = $_GET["category"];
 
-        // echo $product, "</br>";
-        // echo $category, "</br>";
-
         echo htmlspecialchars($product), "</br>";
         echo htmlspecialchars($category), "</br>";
     ?>
