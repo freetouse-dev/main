@@ -24,15 +24,10 @@
 
 <?php
     $username = $_GET["username"];
-    $username = $_GET["password"];
-
-    // echo "</br>";
-    // print_r($_GET["username"]);
-    // echo "</br>";
-    // print_r($_GET["password"]);
+    $password = $_GET["password"];
 
     echo "</br>";
-    print_r(htmlspecialchars($_GET["username"]));
+    print_r(htmlspecialchars($username));
     echo "</br>";
-    print_r(htmlspecialchars($_GET["password"]));
+    print_r(htmlspecialchars($password));
 ?>

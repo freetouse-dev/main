@@ -23,15 +23,10 @@
 
 <?php
     $username = $_POST["username"];
-    $username = $_POST["password"];
-
-    // echo "</br>";
-    // print_r($_POST["username"]);
-    // echo "</br>";
-    // print_r($_POST["password"]);
+    $password = $_POST["password"];
 
     echo "</br>";
-    print_r(htmlspecialchars($_POST["username"]));
+    print_r(htmlspecialchars($username));
     echo "</br>";
-    print_r(htmlspecialchars($_POST["password"]));
+    print_r(htmlspecialchars($password));
 ?>
